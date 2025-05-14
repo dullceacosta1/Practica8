@@ -6,6 +6,7 @@ function sumar(){
     var opc;
     opc=eval(num1)+eval(num2);
     document.calc.resultado.value=opc;
+    alert("El resultado de la suma es")
 }
 function restar(){
     var num1;
